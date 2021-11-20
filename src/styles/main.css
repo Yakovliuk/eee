@@ -1,0 +1,1008 @@
+@import url(fonts.css);
+@import url(style.css);
+@import url(reset.css);
+
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 0.78vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #7c7c7c;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f3ced5;
+    border-radius: 0.42vw;
+    border: 0.16vw solid #7c7c7c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f3ced5;
+}
+
+  
+  #go-top {
+    position: fixed; 
+    bottom: 35px; 
+    right: 35px;
+    text-align: center;
+    cursor:pointer; 
+    display:none;
+    width: 4vw;
+    height: 4vw;
+ 
+    background-image: url(../img/arrow.png);
+    background-position: center;
+    background-size:40%;
+    background-repeat: no-repeat;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 0.3vw solid #333;
+  
+  font-size: 0vw;
+  }
+
+  #go-top:hover {
+      background-color:#333;
+    background-image: url(../img/arrow1.png);
+  
+    fill: white;
+  }
+.Photo {
+    background-image: url(../img/11.webp);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 60.2vw;
+    position: relative;
+    
+  
+}
+.text11{
+   font-size: 0px;
+}
+.text22{
+    font-size: 0px;
+}
+.rez.s{
+    width: 0vw;
+    height: 0vw;
+}
+.header {
+    display: flex;
+    position: absolute;
+    top: 2.4vw;
+    width: 100%;
+    height: auto;
+
+}
+
+.logo {
+    width: 11.46vw;
+    height: 5.21vw;
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 4vw;
+    top: 1.04vw;
+    position: absolute;
+
+}
+
+.about {
+    background-color: #f6f6f6;
+    background-size: 100% auto;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.using-now {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.6vw;
+    top: 16.3vw;
+    left: 27.60vw;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.08vw;
+    letter-spacing: 0.1854em;
+    text-align: left;
+
+}
+
+.using-now.learning {
+    top: 49vw;
+}
+
+.using-now.other {
+    top: 70.2vw;
+}
+
+.skills {
+    background-color: #f6f6f6;
+    background-size: 100% auto;
+    height: 99vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.portfolio {
+    background-color: #f6f6f6;
+
+    background-size: 100% auto;
+    height: 68vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    height: 13vw;
+    background-color: #000000;
+    background-size: 100% auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    height: 58vw;
+    background-color: #f6f6f6;
+    background-size: 100% auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    background-color: #f6f6f6;
+    width: 31.77vw;
+    height: 2.60vw;
+    border: none;
+    border-left: 0.3vw solid #000000;
+    border-bottom: 0.3vw solid #000000;
+    
+    position: absolute;
+    top: 23.04vw;
+
+    font-family: 'Montserrat-Bold';
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+}
+
+.input.email {
+    top: 28.20vw;
+}
+
+.input.phone {
+    top: 33.40vw;
+}
+
+.input.messages {
+    top: 38.60vw;
+    height: 9.64vw;
+    width: 31.77vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+textarea::placeholder {
+    color: #8B8B8B;
+    font-size: 0.8vw;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+input::placeholder {
+    color: #8B8B8B;
+    font-size: 0.8vw;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+.textx {
+    position: absolute;
+    top: 13.67vw;
+    width: 52.08vw;
+    text-align: center;
+    font-family: 'OpenSans-Regular';
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    color: #050505;
+
+}
+.textxs {
+    position: absolute;
+    top: 13.67vw;
+    width: 52.08vw;
+    text-align: center;
+    font-family: 'OpenSans-Regular';
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    color: #050505;
+
+}
+.textxf{
+    font-family: 'OpenSans-SemiBold';
+    font-weight: 600;
+          }
+
+.tex {
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 3.65vw;
+    top: 30vw;
+    justify-content: space-between;
+}
+
+.textv {
+    font-size: 1.5vw;
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.56vw;
+    letter-spacing: 0.1854em;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.textv.a {
+    position: absolute;
+    top: 40vw;
+}
+
+.back-photo {
+    z-index: -1;
+    top: -1.3vw;
+    left: -2.4vw;
+    position: absolute;
+    width: 3.65vw;
+    height: 3.65vw;
+    background-image: url(../img/int.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.back-photo.b {
+    background-image: url(../img/eks.webp);
+}
+
+.back-photo.c {
+    background-image: url(../img/desi.webp);
+}
+
+.boxs {
+    position: absolute;
+    display: flex;
+    width: 52.08vw;
+    height: 8.85vw;
+    top: 22.9vw;
+
+    justify-content: space-between;
+}
+
+.boxs.a {
+    top: 35.15vw;
+}
+
+.boxs.b {
+    top: 55.50vw;
+}
+
+.boxs.c {
+    top: 77vw;
+}
+
+.texts {
+    width: 13.02vw;
+    height: 8.85vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Montserrat-Regular';
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1354em;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.icon {
+    height: 5.21vw;
+    width: 13.02vw;
+
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rez {
+    width: 8.85vw;
+    height: 0.78vw;
+    background-image: url(../img/roz.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 18vw;
+}
+
+.rez.a {
+    top: 25vw;
+}
+
+.icon.f {
+    background-image: url(../img/sketchup.webp);
+}
+
+.icon.a {
+    background-image: url(../img/layout.webp);
+}
+
+.icon.b {
+    background-image: url(../img/autocad.webp);
+}
+
+.icon.c {
+    background-image: url(../img/figma.webp);
+}
+
+.icon.bb {
+    background-image: url(../img/corel.webp);
+}
+
+.icon.cc {
+    background-image: url(../img/illustrator.webp);
+}
+
+.icon.z {
+    background-image: url(../img/3dmax.webp);
+}
+
+.icon.aa {
+    background-image: url(../img/photoshop.webp);
+}
+
+.icon.aaaa {
+    background-image: url(../img/English.webp);
+}
+
+.explore {
+    position: absolute;
+    top: 19.66vw;
+    width: 7.29vw;
+    height: 1.72vw;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    border-left: 0.19vw solid #000000;
+    border-right: 0.19vw solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bode {
+    display: flex;
+    position: absolute;
+    top: 4.29vw;
+    width: 21.35vw;
+    height: 5.73vw;
+    border: 0.42vw solid black;
+    box-sizing: border-box;
+    font-size: 1.6vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    letter-spacing: 0.35538em;
+}
+
+.menu {
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-size: 1.2vw;
+    width: 33.33vw;
+    left: 51.56vw;
+
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ua {
+    width: 3.65vw;
+    height: 1.20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-size: 0.9vw;
+    cursor: pointer;
+}
+
+.ua:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.eu:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.text1 {
+    font-size: 2.7vw;
+    font-family: 'Raleway-Bold';
+    margin-left: 8%;
+    display: flex;
+    position: absolute;
+    top: 18.23vw;
+}
+
+.text2 {
+    font-size: 5.2vw;
+    font-family: 'Raleway-Bold';
+    margin-left: 8%;
+    display: flex;
+    position: absolute;
+    top: 23.96vw;
+}
+
+.text3 {
+    font-size: 1.6vw;
+    font-family: 'Raleway-ExtraBold';
+    color: #909090;
+    margin-left: 8%;
+    display: flex;
+    position: absolute;
+    top: 30vw;
+}
+
+.message {
+    position: absolute;
+    margin-left: 8%;
+    top: 37.76vw;
+    width: 15vw;
+    height: 4vw;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.box:hover {
+    box-shadow: 0vw 0.42vw 0.42vw rgba(0, 0, 0, 0.25);
+}
+
+.box {
+    width: 4vw;
+    height: 3.7vw;
+
+    background: #f3ced5;
+    box-shadow: 0vw 0.21vw 0.21vw rgba(0, 0, 0, 0.25);
+}
+
+.box.email {
+    background-image: url(../img/email.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.box.instagram {
+    background-image: url(../img/instagram.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.box.facebook {
+    background-image: url(../img/facebook.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+
+.eu {
+    width: 3.65vw;
+    margin-top: 0.2vw;
+    height: 1.20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat-Bold';
+    font-weight: 700;
+    font-size: 0.9vw;
+    cursor: pointer;
+
+}
+.footer-text{
+    top: 9vw;
+    position: absolute;
+font-family: 'Nunito-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 1.04vw;
+line-height: 1.30vw;
+color: #FFFFFF;
+}
+.footer-text1{
+    font-family: 'Nunito-Regular';
+    font-weight: 400;
+}
+.language {
+    width: 3.65vw;
+    height: 2.60vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 86.46vw;
+    justify-content: space-between;
+
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buttons {
+    width: 7.81vw;
+    height: 2.60vw;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 1.56vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85vw;
+}
+.buttons:hover {
+  
+    color: black;
+    background-color: white;
+    font-size: 0.85vw;
+}
+.buttona:hover {
+    width: 7.81vw;
+    height: 2.60vw;
+    color: white;
+    background-color: black;
+    border-radius: 1.56vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box-four{
+    height: 2.60vw;
+    width: 10.8vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 4vw;
+}
+.one{
+    width: 2.2vw;
+    height: 2.2vw;
+    background-image: url(../img/email1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.one.b{
+    background-image: url(../img/instagram1.png);
+}
+.one.c{
+    background-image: url(../img/facebook1.png);
+}
+.buttona {
+    width: 7.81vw;
+
+}
+
+
+
+
+.button-submit {
+    position: absolute;
+    width: 10.42vw;
+    height: 2.34vw;
+    top: 52vw;
+    border: none;
+    border-left: 0.25vw solid #000000;
+    border-right: 0.25vw solid #000000;
+    font-family: 'Montserrat-Bold';
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: #f6f6f6;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    box-shadow: 0vw 0.42vw 0.42vw rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width:500px) {
+        /* /////////////////////////////////////////////////  HEADER  ///////////////////////////////////////////////// */
+.Photo{
+    background-image: radial-gradient(44.99% 44.99% at 54.86% 47.98%, rgba(19, 19, 19, 0.006) 0%, rgba(14, 0, 0, 0.201) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 15.1%, rgba(0, 0, 0, 0) 100%), url(../img/back-fon.jfif);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: inherit;
+    width: 100vw;
+    height: 200vw;
+    display: flex;
+    justify-content: center;
+}
+.text3{
+    display: none;
+}
+.logo{
+    display: none;
+}
+.language{
+    display: none;
+}
+.message{
+    display: none;
+}
+.text1{
+    display: none;
+}
+.text2{
+    display: none;
+}
+.text11 {
+    font-size: 7.89vw;
+    font-family: 'AdventPro-Regular';
+    font-weight: 400;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    line-height: 7.89vw;
+    top: 70vw;
+    color: white;
+
+}
+
+.text22 {
+    position: absolute;
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.21vw;
+    line-height: 10vw;
+    /* identical to box height */
+    top: 80vw;
+    text-align: center;
+    color: white;
+   
+}
+.rez.s {
+    width: 30vw;
+    height: 5vw;
+    background-image: url(../img/rozs.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 92vw;
+}
+.box-fours{
+    height: 6.5vw;
+        width: 38vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 101vw;
+}
+.ones{
+    height: 6.5vw;
+    width: 6.5vw;
+    background-image: url(../img/email1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ones.b{
+    background-image: url(../img/instagram1.png);
+}
+.ones.c{
+    background-image: url(../img/facebook1.png);
+}
+/* //////////////////////// */
+
+/* ////////////////////////// */
+
+        .menu{
+            display: none;
+        }
+        .message{
+         
+            margin-left: inherit;
+        }
+    /* /////////////////////////////////////////////////  ABOUT  ///////////////////////////////////////////////// */
+    .about{
+        height: 143vw;
+    }
+    
+.textx {
+    top: 27vw;
+    width: 80vw;
+    font-size: 3.8vw;
+    text-align: justify;
+}
+.explore {
+    position: absolute;
+    top: 83vw;
+    width: 25vw;
+    height: 5vw;
+    font-size: 3.5vw;
+    border-left: 0.6vw solid #000000;
+    border-right: 0.6vw solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rez.a {
+    width: 30vw;
+    height: 5vw;
+    background-image: url(../img/roz.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 93vw;
+}
+.tex {
+    position: absolute;
+    display: flex;
+    width: 90vw;
+    height: 30vw;
+    top: 105vw;
+    flex-wrap: wrap;
+    left: 6vw;
+}
+
+.textv {
+    font-size: 4vw;
+    line-height: 5vw;
+    left: 20vw;
+    color: #242424;
+
+}
+
+.textv.a {
+    position: absolute;
+    top: 135vw;
+    left: 26vw;
+
+
+}
+.back-photo {
+    z-index: -1;
+    top: -3vw;
+    left: -11vw;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+
+}
+/* /////////////////////////////////////////////////  SKILLS   ///////////////////////////////////////////////// */
+
+
+.bode{
+    top: 12.29vw;
+    width: 45vw;
+    height: 9vw;
+    font-size: 4vw;
+    border: 1vw solid black;
+
+}
+    .boxs {
+        position: absolute;
+        display: flex;
+        width: 80vw;
+        height: 70vw;
+        top: 40vw;
+        flex-wrap: wrap;
+    
+        justify-content: space-between;
+    }
+    
+    .boxs.a {
+        top: 120vw;
+    }
+    
+    .boxs.b {
+        top: 230vw;
+    }
+    
+    .boxs.c {
+        top: 258vw;
+    }
+    
+    .texts {
+        width: 40vw;
+        height: 35vw;
+        font-size: 3.5vw;
+        font-weight: 400;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 3vw;
+    
+    }
+    
+    .icon {
+        height: 20vw;
+        width: 30vw;
+    
+    
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .skills {
+        height: 295vw;
+    }
+    .using-now {
+        font-size: 4vw;
+        top: 30vw;
+        left: inherit;
+        line-height: 2.48vw;  
+    }
+    
+    .using-now.learning {
+        top: 200vw;
+    }
+    .using-now.using-now.other {
+        top: 248vw;
+    }
+
+
+   /* /////////////////////////////////////////////////  PORTFOLIO  ///////////////////////////////////////////////// */
+
+      /* /////////////////////////////////////////////////  CONTACT  ///////////////////////////////////////////////// */
+      .contact{
+          height: 165vw;
+      }
+      .textxs {
+        top: 27vw;
+        width: 75vw;
+        font-size: 3.8vw;
+        text-align: justify;
+    }
+      .textxf{
+font-family: 'OpenSans-SemiBold';
+font-weight: 600;
+      }
+      .rez {
+        width: 30vw;
+        height: 5vw;
+        background-image: url(../img/roz.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 60vw;
+    }
+    .input {
+        background-color: #f6f6f6;
+        width: 70vw;
+        height: 7vw;
+        border-left: 1vw solid #000000;
+        border-bottom: 1vw solid #000000;
+        top: 70vw;
+        font-size: 3vw;
+    }
+    
+    .input.email {
+        top: 85vw;
+    }
+    
+    .input.phone {
+        top: 100vw;
+    }
+    
+    .input.messages {
+        top: 115vw;
+        height: 20vw;
+        width: 70vw;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    textarea::placeholder {
+        font-size: 3vw;
+    }
+    
+    input::placeholder {
+        font-size: 3vw;
+    }
+    .button-submit {
+        position: absolute;
+        width: 30vw;
+        height: 7vw;
+        top: 145vw;
+        border-left: 1vw solid #000000;
+        border-right: 1vw solid #000000;
+        font-size: 4vw;
+        text-align: center;
+    }
+     /* /////////////////////////////////////////////////  FOOTER  ///////////////////////////////////////////////// */
+     .footer {
+        height: 25vw;
+        background-color: #000000;
+    }
+    .box-four{
+        height: 7vw;
+        width: 30vw;
+        top: 5vw;
+    }
+
+    .one{
+        width: 7vw;
+        height: 7vw;
+
+    }
+
+     .footer-text{
+        top: 18vw;
+        position: absolute;
+    font-family: 'Nunito-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 1.30vw;
+    }
+    .footer-text1{
+        font-family: 'Nunito-Regular';
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,81 @@
+@import url(/src/styles/fonts.css);
+@import url(/src/styles/style.css);
+@import url(/src/styles/reset.css);
+body{
+    margin: 0px;
+    height: 100vh;
+}
+.container{
+   padding: 0px;
+   margin: 0px auto;
+}
+.Photo{
+    background-image: url('/src/img/1.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 52.5vw;
+    
+}
+.header{
+    background-color: brown;
+    width: 40%;
+    float: right;
+    padding: 50px;
+}
+.menu{
+    font-size: 17px;
+    line-height: 130%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttona{
+    font-size: 17px;
+    line-height: 130%;
+}
+.buttonb{
+    font-size: 17px;
+    line-height: 130%;
+}
+.buttonc{
+    font-size: 17px;
+    line-height: 130%;
+}
+.button{
+    font-size: 17px;
+    line-height: 130%;
+}
+@media (min-width:1920px){
+    .header{
+        background-color: brown;
+        padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1920 - 320)));
+        width: 40%;
+        float: right;
+        padding: 50px;
+    }
+    .menu{
+        font-size: calc(20px + (17 - 20) * ((100vw - 320px) / (1920 - 320)));
+
+        line-height: 130%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .buttona{
+        font-size: calc(20px + (17 - 20) * ((100vw - 320px) / (1920 - 320)));
+        line-height: 130%;
+    }
+    .buttonb{
+        font-size: calc(20px + (17 - 20) * ((100vw - 320px) / (1920 - 320)));
+        line-height: 130%;
+    }
+    .buttonc{
+        font-size: calc(20px + (17 - 20) * ((100vw - 320px) / (1920 - 320)));
+        line-height: 130%;
+    }
+    .button{
+        font-size: calc(20px + (17 - 20) * ((100vw - 320px) / (1920 - 320)));
+        line-height: 130%;
+    }
+}

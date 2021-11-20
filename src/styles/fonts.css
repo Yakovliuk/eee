@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Raleway-Bold' ;
+    src: url(../fonts/Raleway/Raleway-Bold.ttf) format('ttf'),
+         url(../fonts/Raleway/Raleway-Bold.woff2) format('woff2'), 
+         url(../fonts/Raleway/Raleway-Bold.woff) format('woff'),
+         url(../fonts/Raleway/Raleway-Bold.eot) format('eot');
+}
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url(../fonts/Raleway/Raleway-ExtraBold.ttf) format('ttf'),
+    url(../fonts/Raleway/Raleway-ExtraBold.woff2) format('woff2'), 
+         url(../fonts/Raleway/Raleway-ExtraBold.woff) format('woff'),
+         url(../fonts/Raleway/Raleway-ExtraBold.eot) format('eot');
+}
+@font-face {
+    font-family: 'Nunito-Bold' ;
+    src: url(../fonts/Nunito/Nunito-Bold.ttf) format('ttf'),
+    url(../fonts/Nunito/Nunito-Bold.woff2) format('woff2'), 
+         url(../fonts/Nunito/Nunito-Bold.woff) format('woff'),
+         url(../fonts/Nunito/Nunito-Bold.eot) format('eot');
+}
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url(../fonts/Nunito/Nunito-Regular.ttf) format('ttf'),
+    url(../fonts/Nunito/Nunito-Regular.woff2) format('woff2'), 
+    url(../fonts/Nunito/Nunito-Regular.woff) format('woff'),
+    url(../fonts/Nunito/Nunito-Regular.eot) format('eot');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf) format('ttf'),
+    url(../fonts/Montserrat/Montserrat-Regular.woff2) format('woff2'), 
+    url(../fonts/Montserrat/Montserrat-Regular.woff) format('woff'),
+    url(../fonts/Montserrat/Montserrat-Regular.eot) format('eot');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf) format('ttf'),
+    url(../fonts/Montserrat/Montserrat-Bold.woff2) format('woff2'), 
+    url(../fonts/Montserrat/Montserrat-Bold.woff) format('woff'),
+    url(../fonts/Montserrat/Montserrat-Bold.eot) format('eot');
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf) format('ttf'),
+    url(../fonts/Montserrat/Montserrat-SemiBold.woff2) format('woff2'), 
+    url(../fonts/Montserrat/Montserrat-SemiBold.woff) format('woff'),
+    url(../fonts/Montserrat/Montserrat-SemiBold.eot) format('eot');
+}
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url(../fonts/OpenSans/OpenSans-SemiBold.ttf) format('ttf'),
+    url(../fonts/OpenSans/OpenSans-SemiBold.woff2) format('woff2'), 
+    url(../fonts/OpenSans/OpenSans-SemiBold.woff) format('woff'),
+    url(../fonts/OpenSans/OpenSans-SemiBold.eot) format('eot');
+ 
+ 
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf) format('ttf'),
+    url(../fonts/OpenSans/OpenSans-Regular.woff2) format('woff2'), 
+    url(../fonts/OpenSans/OpenSans-Regular.woff) format('woff'),
+    url(../fonts/OpenSans/OpenSans-Regular.eot) format('eot');
+ 
+ 
+}
+@font-face {
+    font-family: 'AdventPro-Regular';
+    src: url(../fonts/AdvantPro/AdventPro-Regular.ttf) format('ttf'),
+    url(../fonts/AdvantPro/AdventPro-Regular.woff2) format('woff2'), 
+    url(../fonts/AdvantPro/AdventPro-Regular.woff) format('woff'),
+    url(../fonts/AdvantPro/AdventPro-Regular.eot) format('eot');
+ 
+}
